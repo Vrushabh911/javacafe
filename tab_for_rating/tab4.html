@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Restaurant Feedback Form</title>
+  <link rel="stylesheet" type="text/css" href="style4.css">
+</head>
+<body>
+  <h1>Restaurant Feedback Form</h1>
+  
+  <form id="feedbackForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="rating">Rating:</label>
+    <select id="rating" name="rating" required>
+      <option value="">Select rating</option>
+      <option value="5">5 - Excellent</option>
+      <option value="4">4 - Very Good</option>
+      <option value="3">3 - Good</option>
+      <option value="2">2 - Fair</option>
+      <option value="1">1 - Poor</option>
+    </select>
+    
+    <label for="comment">Comment:</label>
+    <textarea id="comment" name="comment" rows="4" required></textarea>
+    
+    <input type="submit" value="Submit">
+  </form>
+  
+  <script src="script4.js"></script>
+</body>
+</html>
