@@ -208,3 +208,7 @@ footer{
 .center{
     text-align: center;
 }
+.btn:hover {
+    background-color: #c7652d;
+}
+
